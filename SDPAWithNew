@@ -1,6 +1,7 @@
 /*
 Single Dimensional Primitive Array With "new" keyword
 
+Scenario-1
 Create an array with 5 int data types 
 >Fetch the 4th and 5th elements.
 >Fetch all the elements
