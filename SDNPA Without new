@@ -1,9 +1,13 @@
 /*
 Single Dimensional Non-Primitive Array without "new" Keyword
+
+Scenario-1
+Create an array with 5 String data types 
+>Fetch the 4th and 5th elements.
+>Fetch all the elements
+
+Note: Create Array without using "new" keyword
 */
-
-
-
 
 package stringprograms;
 
