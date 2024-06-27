@@ -1,5 +1,36 @@
 /*
 Single Dimensional Non-Primitive Array with "new" Keywards
 
-
+Scenario-1
+Create an array with 5 int data types 
+>Fetch the 4th and 5th elements.
+>Fetch all the elements
 */
+
+package stringprograms;
+
+public class SDNPDTWithNew {
+
+	public static void main(String[] args) {
+		String [] a=new String[5];
+		a[0]="Str1";
+		a[1]="Str2";
+
+//Since for a[2] i'm not assigning any value so it'll print
+//the Default value *null ...
+
+		a[3]="Str3";
+		a[4]="Str3";
+
+		System.out.println(a[0]);
+		System.out.println(a[2]);
+		System.out.println();
+		System.out.println("=============================");
+		System.out.println();
+		//for-each loop
+		for(String i:a)
+			System.out.println(i);
+	}
+
+}
+
