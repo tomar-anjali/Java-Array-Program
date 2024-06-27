@@ -1,3 +1,26 @@
 /*
 Single Dimensional Non-Primitive Array without "new" Keyword
 */
+
+
+
+
+package stringprograms;
+
+public class SDNPDTWithoutNew {
+
+	public static void main(String[] args) {
+		String [] s= {"Anjali","Singh","From","Banka","Bihar"};
+		
+		System.out.println(s[2]);
+		System.out.println(s[3]);
+		System.out.println();
+		System.out.println("================");
+		System.out.println();
+		for(String s1:s) {
+			System.out.println(s1);
+		}
+	}
+
+}
+
