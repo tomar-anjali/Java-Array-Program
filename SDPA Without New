@@ -1,5 +1,30 @@
 /*
-Single Dimensional Primitive Array without "new" Keyward
+Single Dimensional Primitive Array without "new" Keyword
 
+Scenario-1
+Create an array with 5 int data types 
+>Fetch the 4th and 5th elements.
+>Fetch all the elements
 
+Note: Create Array without using "new" keyword
 */
+
+package stringprograms;
+
+public class SDNPDTWithoutNew {
+
+	public static void main(String[] args) {
+		int [] arr= {10,40,65,78,49};
+		
+		System.out.println(arr[2]);
+		System.out.println(arr[3]);
+		System.out.println();
+		System.out.println("================");
+		System.out.println();
+		for(int i:arr) {
+			System.out.println(i);
+		}
+	}
+
+}
+
