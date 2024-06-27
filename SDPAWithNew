@@ -1,0 +1,31 @@
+/*
+Single Dimensional Primitive Array With "new" keyword
+
+Create an array with 5 int data types 
+>Fetch the 4th and 5th elements.
+>Fetch all the elements
+
+*/
+
+package stringprograms;
+
+public class SDPDTWithNew {
+
+	public static void main(String[] args) {
+		int [] a=new int[5];
+		a[0]=10;
+		a[1]=80;
+		a[3]=70;
+		a[4]=60;
+		System.out.println(a[0]);
+		System.out.println(a[2]);
+		System.out.println();
+		System.out.println("=============================");
+		System.out.println();
+		//for-each loop
+		for(int i:a)
+			System.out.println(i);
+	}
+
+}
+
