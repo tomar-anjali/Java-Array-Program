@@ -1,0 +1,37 @@
+package arrayprograms;
+
+public class SechighestAndSecLowest {
+//find the 2nd highest and 2nd Lowest values
+	
+	public static void main(String[] args) {
+		int [] a= {10,20,30,10,50,30,20,60,40,20};
+		int high=a[0];
+		int sechigh=-1;
+		int low=a[0];
+		int seclow=a[a.length-1];
+		for(int i=0;i<a.length;i++) {
+			
+//			finding 2nd high
+			if(a[i]>high) {
+				sechigh=high;
+				high=a[i];
+			}
+			else if(a[i]>sechigh && a[i]<high) {
+				sechigh=a[i];
+			}
+			
+//			Finding 2nd low
+			
+			if(a[i]<low) {
+				seclow=low;
+				low=a[i];
+			}
+			else if(a[i]<seclow && a[i]>low) {
+				seclow=a[i];
+			}
+		}
+		System.out.println(sechigh);
+		System.out.println(seclow);
+	}
+
+}
