@@ -1,0 +1,23 @@
+package arrayprograms;
+//Find highest and lowest elements
+public class ArrayPrg6 {
+
+	public static void main(String[] args) {
+		int [] a= {10,20,30,10,50,30,20,60,40,20};
+		int high=a[0];
+		int low=a[0];
+		for(int i=0;i<a.length;i++) {
+
+// Condition to find Highest Elements
+			if(a[i]>high) {
+				high=a[i];
+			}
+
+	// Condition to find Lowest Elements
+			if(a[i]<low) {
+				low=a[i];
+			}
+		}
+		System.out.println("Highest: "+high+"\nLowest: "+low);
+	}
+}
