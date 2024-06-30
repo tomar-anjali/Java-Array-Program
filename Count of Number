@@ -1,6 +1,6 @@
 package arrayprograms;
 
-public class ArrayPrg3 {
+public class NumCount {
 
 	public static void main(String[] args) {
 //		i/p: {10,20,30,40,50,60,10,30,50,10,60}
